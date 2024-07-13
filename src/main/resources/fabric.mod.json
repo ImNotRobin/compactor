@@ -3,9 +3,9 @@
 	"id": "compactor",
 	"version": "${version}",
 	"name": "Compactor",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Does a few random things that I like",
 	"authors": [
-		"Me!"
+		"ImNotRobin"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
