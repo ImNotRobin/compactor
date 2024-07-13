@@ -1,6 +1,7 @@
 package net.robin.compactor;
 
 import net.fabricmc.api.ModInitializer;
+import net.robin.compactor.common.registry.modBlocks;
 import net.robin.compactor.common.registry.modEffects;
 import net.robin.compactor.common.registry.modItems;
 import net.robin.compactor.common.registry.modPotions;
@@ -25,5 +26,6 @@ public class Compactor implements ModInitializer {
         modItems.registerModItems();
         modPotions.registerAll();
         modEffects.registerAll();
+        modBlocks.registerAll();
     }
 }

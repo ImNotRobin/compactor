@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "bottom": "compactor:block/gunpowder_barrel_bottom",
+    "side": "compactor:block/gunpowder_barrel_side",
+    "top": "compactor:block/gunpowder_barrel_top"
+  }
+}

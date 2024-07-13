@@ -4,6 +4,7 @@ import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.effect.StatusEffect;
 import net.minecraft.entity.effect.StatusEffectCategory;
 import net.minecraft.util.math.Vec3d;
+import net.minecraft.util.math.random.Random;
 
 public class mysterious_illness extends StatusEffect {
     public mysterious_illness(StatusEffectCategory statusEffectCategory, int color) {
@@ -67,9 +68,9 @@ public class mysterious_illness extends StatusEffect {
             entity.travel(new Vec3d(wobblePath, 0d, (wobblePosition / 100)));
         }
 
-        if (entity.getHealth() > 4.0F) {
-            entity.damage(entity.getDamageSources().magic(), 4.0f);
-        }
+//        if (entity.getHealth() > 4.0F) {
+//            entity.damage(entity.getDamageSources().magic(), 4.0f);
+//        }
 //        else if (entity.getHealth())
 
         return super.applyUpdateEffect(entity, amplifier);

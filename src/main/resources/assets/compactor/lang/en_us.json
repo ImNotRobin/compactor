@@ -14,5 +14,7 @@
   "item.minecraft.lingering_potion.effect.strong_haste_potion": "Lingering Potion of Haste",
   "item.minecraft.tipped_arrow.effect.haste_potion": "Arrow of Haste",
   "item.minecraft.tipped_arrow.effect.long_haste_potion": "Arrow of Haste",
-  "item.minecraft.tipped_arrow.effect.strong_haste_potion": "Arrow of Haste"
+  "item.minecraft.tipped_arrow.effect.strong_haste_potion": "Arrow of Haste",
+
+  "effect.compactor.mystery_illness" : "Mysterious Illness"
 }

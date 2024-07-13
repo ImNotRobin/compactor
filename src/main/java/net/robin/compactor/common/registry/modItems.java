@@ -12,7 +12,6 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import net.robin.compactor.Compactor;
 import net.robin.compactor.common.items.depth_measure;
-import net.robin.compactor.common.statuseffects.mysterious_illness;
 
 public class modItems {
 
@@ -34,8 +33,9 @@ public class modItems {
         .nutrition(-8)
         .saturationModifier(0.0f)
         .alwaysEdible()
-        .statusEffect(new StatusEffectInstance(modEffects.mystery_illness, 3600, 1), 1.0f)
+        .statusEffect(new StatusEffectInstance(modEffects.mystery_illness, 3600, 0), 1.0f)
         .statusEffect(new StatusEffectInstance(StatusEffects.NAUSEA, 3600, 0), 1.0f)
+        .statusEffect(new StatusEffectInstance(StatusEffects.POISON, 3600, 9), 1.0f)
         .build();
 
     public static final Item depth_measure = registerItems("depth_measure", new depth_measure(new Item.Settings().maxCount(16)));
@@ -49,10 +49,6 @@ public class modItems {
         entries.add(arrow_bundle);
     }
 
-    private static void addItemsToIngredientsItemGroup(FabricItemGroupEntries entries) {
-        entries.add(gunpowder_bag);
-    }
-
     private static void addItemsToIngredientsFoodGroup(FabricItemGroupEntries entries) {
         entries.add(flesh_pile);
     }
@@ -61,7 +57,6 @@ public class modItems {
         Compactor.LOGGER.info("Registering mod items for " + Compactor.MOD_ID);
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.COMBAT).register(modItems::addItemsToCombatItemGroup);
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(modItems::addItemsToIngredientsItemGroup);
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.FOOD_AND_DRINK).register(modItems::addItemsToIngredientsFoodGroup);
     }
 
