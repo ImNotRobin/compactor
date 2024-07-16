@@ -23,7 +23,7 @@ public class Compactor implements ModInitializer {
 
         LOGGER.info("Initializing Compactor");
 //        modItemGroups.registerItemGroups();
-        modItems.registerModItems();
+        modItems.registerItems();
         modPotions.registerAll();
         modEffects.registerAll();
         modBlocks.registerAll();

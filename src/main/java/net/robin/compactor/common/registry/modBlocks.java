@@ -31,12 +31,12 @@ public class modBlocks {
             .burnable()
             .solidBlock(Blocks::never)));
 
-    private static void addItemsToFunctionalItemGroup(FabricItemGroupEntries entries) {
+    private static void addItemsToCombatItemGroup(FabricItemGroupEntries entries) {
         entries.add(gunpowder_barrel);
     }
 
     public static void registerAll(){
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.FUNCTIONAL).register(modBlocks::addItemsToFunctionalItemGroup);
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.COMBAT).register(modBlocks::addItemsToCombatItemGroup);
     }
 
 }

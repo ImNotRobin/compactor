@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_questionable_meat_sack": {
+      "conditions": {
+        "items": [
+          {
+            "items": "compactor:questionable_meat_sack"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:rotten_flesh"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_questionable_meat_sack"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:rotten_flesh"
+    ]
+  }
+}

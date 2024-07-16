@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "compactor:questionable_meat_sack"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "minecraft:rotten_flesh"
+  }
+}
