@@ -15,6 +15,7 @@
   "item.minecraft.tipped_arrow.effect.haste_potion": "Arrow of Haste",
   "item.minecraft.tipped_arrow.effect.long_haste_potion": "Arrow of Haste",
   "item.minecraft.tipped_arrow.effect.strong_haste_potion": "Arrow of Haste",
+  "block.compactor.gunpowder_barrel" : "Gunpowder Barrel",
 
   "effect.compactor.mystery_illness" : "Mysterious Illness"
 }
