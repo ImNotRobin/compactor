@@ -39,3 +39,5 @@ replay_*.log
 *.hprof
 *.jfr
 /.project_extras/
+/src/main/java/net/robin/compactor/common/blocks/gunpowder_barrel_old
+/src/main/java/net/robin/compactor/common/blocks/gunpowder_barrel_WIP

@@ -1,10 +1,9 @@
-package net.robin.compactor.common.statuseffects;
+package net.robin.compactor.common.statusEffects;
 
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.effect.StatusEffect;
 import net.minecraft.entity.effect.StatusEffectCategory;
 import net.minecraft.util.math.Vec3d;
-import net.minecraft.util.math.random.Random;
 
 public class mysterious_illness extends StatusEffect {
     public mysterious_illness(StatusEffectCategory statusEffectCategory, int color) {

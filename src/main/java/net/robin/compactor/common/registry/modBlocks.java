@@ -24,18 +24,18 @@ public class modBlocks {
     }
 
     public static final Block gunpowder_barrel = registerBlock("gunpowder_barrel", new gunpowder_barrel(AbstractBlock.Settings
-            .create().
-            mapColor(MapColor.BROWN).
-            breakInstantly()
+            .create()
+            .mapColor(MapColor.SPRUCE_BROWN)
+            .strength(2.0F, 3.0F)
             .sounds(BlockSoundGroup.WOOD)
             .burnable()
             .solidBlock(Blocks::never)));
 
     private static void addItemsToCombatItemGroup(FabricItemGroupEntries entries) {
-        entries.add(gunpowder_barrel);
+        entries.add(gunpowder_barrel.asItem());
     }
 
-    public static void registerAll(){
+    public static void registerAll() {
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.COMBAT).register(modBlocks::addItemsToCombatItemGroup);
     }
 

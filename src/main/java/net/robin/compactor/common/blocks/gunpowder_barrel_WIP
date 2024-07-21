@@ -1,0 +1,38 @@
+package net.robin.compactor.common.blocks;
+
+import net.minecraft.block.AbstractBlock;
+import net.minecraft.block.Block;
+import net.minecraft.block.BlockState;
+import net.minecraft.entity.EntityType;
+import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.Items;
+import net.minecraft.util.Hand;
+import net.minecraft.util.ItemActionResult;
+import net.minecraft.util.hit.BlockHitResult;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.world.World;
+import net.robin.compactor.Compactor;
+
+public class gunpowder_barrel extends Block {
+
+    public gunpowder_barrel(AbstractBlock.Settings settings) {
+        super(settings);
+    }
+
+    //    @Override
+//    protected ItemActionResult onUseWithItem(ItemStack stack, BlockState state, World world, BlockPos pos, PlayerEntity player, Hand hand, BlockHitResult hit) {
+//        Compactor.LOGGER.info("fuck you");
+//        if (!stack.isOf(Items.FLINT_AND_STEEL) && !stack.isOf(Items.FIRE_CHARGE)) {
+//            return super.onUseWithItem(stack, state, world, pos, player, hand, hit);
+//        } else {
+//            return ItemActionResult.success(world.isClient);
+//        }
+//    }
+
+    //    @Override
+//    protected void neighborUpdate(BlockState state, World world, BlockPos pos, Block sourceBlock, BlockPos sourcePos, boolean notify) {
+////        super.neighborUpdate(state, world, pos, sourceBlock, sourcePos, notify);
+//        if (world.creat)
+//    }
+}

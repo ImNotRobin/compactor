@@ -7,7 +7,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.registry.entry.RegistryEntry;
 import net.minecraft.util.Identifier;
 import net.robin.compactor.Compactor;
-import net.robin.compactor.common.statuseffects.mysterious_illness;
+import net.robin.compactor.common.statusEffects.mysterious_illness;
 
 public class modEffects {
     public static RegistryEntry<StatusEffect> registerEffect(String id, StatusEffect statusEffect) {
