@@ -21,5 +21,6 @@ public class recipeGenerator extends FabricRecipeProvider {
         offerReversibleCompactingRecipes(exporter, RecipeCategory.COMBAT, Items.ARROW, RecipeCategory.COMBAT, modItems.arrow_bundle);
         offerReversibleCompactingRecipes(exporter, RecipeCategory.FOOD, Items.ROTTEN_FLESH, RecipeCategory.FOOD, modItems.flesh_pile);
         offerReversibleCompactingRecipes(exporter, RecipeCategory.MISC, Items.GUNPOWDER, RecipeCategory.COMBAT, modBlocks.gunpowder_barrel);
+        offerReversibleCompactingRecipes(exporter, RecipeCategory.MISC, Items.SUGAR_CANE, RecipeCategory.COMBAT, modBlocks.sugar_cane_bundle);
     }
 }

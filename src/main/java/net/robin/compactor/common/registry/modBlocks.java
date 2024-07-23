@@ -30,13 +30,24 @@ public class modBlocks {
             .sounds(BlockSoundGroup.WOOD)
             .burnable()
             .solidBlock(Blocks::never)));
+    public static final Block sugar_cane_bundle = registerBlock("sugar_cane_bundle", new Block(AbstractBlock.Settings
+            .create()
+            .mapColor(MapColor.PALE_GREEN)
+            .strength(2.0F, 3.0F)
+            .sounds(BlockSoundGroup.BAMBOO_WOOD)
+            .burnable()));
 
     private static void addItemsToCombatItemGroup(FabricItemGroupEntries entries) {
         entries.add(gunpowder_barrel.asItem());
     }
 
+    private static void addItemToNatural(FabricItemGroupEntries entries) {
+        entries.add(sugar_cane_bundle.asItem());
+    }
+
     public static void registerAll() {
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.COMBAT).register(modBlocks::addItemsToCombatItemGroup);
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.NATURAL).register(modBlocks::addItemToNatural);
     }
 
 }

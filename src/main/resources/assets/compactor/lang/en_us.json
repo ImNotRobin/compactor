@@ -1,6 +1,5 @@
 {
   "item.compactor.bundle_of_arrows" : "Bundle of Arrows",
-  "item.compactor.gunpowder_sack" : "Gunpowder Sack",
   "item.compactor.questionable_meat_sack" : "Questionable Meat Sack",
 
   "item.minecraft.potion.effect.haste_potion": "Potion of Haste",
@@ -15,7 +14,9 @@
   "item.minecraft.tipped_arrow.effect.haste_potion": "Arrow of Haste",
   "item.minecraft.tipped_arrow.effect.long_haste_potion": "Arrow of Haste",
   "item.minecraft.tipped_arrow.effect.strong_haste_potion": "Arrow of Haste",
+
   "block.compactor.gunpowder_barrel" : "Gunpowder Barrel",
+  "block.compactor.sugar_cane_bundle" : "Sugar Cane Block",
 
   "effect.compactor.mystery_illness" : "Mysterious Illness"
 }
