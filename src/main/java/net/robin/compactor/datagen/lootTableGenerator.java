@@ -18,5 +18,6 @@ public class lootTableGenerator extends FabricBlockLootTableProvider {
         // drops itself
         addDrop(modBlocks.gunpowder_barrel);
         addDrop(modBlocks.sugar_cane_bundle);
+        addDrop(modBlocks.blaze_block);
     }
 }

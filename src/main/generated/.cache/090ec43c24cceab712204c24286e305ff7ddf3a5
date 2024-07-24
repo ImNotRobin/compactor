@@ -1,7 +1,9 @@
-// 1.21	2024-07-23T01:54:07.8500764	Compactor/Recipes
+// 1.21	2024-07-24T01:46:52.4972371	Compactor/Recipes
 8cbab6f623f3dedcb182010e2033bb2ce39bedb5 data\compactor\advancement\recipes\misc\gunpowder.json
 7fd201474111edd4c0f29734145f99a55957262b data\compactor\advancement\recipes\combat\gunpowder_barrel.json
+a075db8086f39ef341d751303e3616882db2882b data\compactor\advancement\recipes\combat\magma_block.json
 c74cf6c8715195bca125a91236d4895a46b88b15 data\compactor\advancement\recipes\food\questionable_meat_sack.json
+2eda02a9b6c27b1245e1afee8f91b98292d181f5 data\compactor\recipe\blaze_rod.json
 98d8e3e335e82348b80570993e149dd4603d4c0a data\compactor\advancement\recipes\combat\sugar_cane_bundle.json
 9b65e8caca663647d1934b11709ce6074e75b682 data\compactor\recipe\rotten_flesh.json
 234b7bfb407ecc7e839419ad2588ebd3d49ff3c9 data\compactor\advancement\recipes\food\rotten_flesh.json
@@ -11,7 +13,9 @@ a1e9fa5f6e689b352ffb2e495d80322db5761501 data\compactor\recipe\gunpowder.json
 2f98a2f1b353a4d28bffee12d6eb4ca7aaddda1c data\compactor\recipe\sugar_cane_bundle.json
 9bf668e2c8610aedf4aefc399a436b54c2245bd5 data\compactor\recipe\bundle_of_arrows.json
 82efca43a2d4e1ca86a055a596ea5f7a0c3cc432 data\compactor\advancement\recipes\combat\arrow.json
+615798c9cbfa357fd38d5b2ae42740c7fc4972d5 data\compactor\recipe\magma_block.json
 082908ab7748e96b9df1056cf4564dbc4be7052d data\compactor\advancement\recipes\combat\bundle_of_arrows.json
 c3077398c27bbe878b5766f0fed6287f775ae244 data\compactor\recipe\gunpowder_barrel.json
+2820acf3ead15f9c2442f64039247628eaf91416 data\compactor\advancement\recipes\misc\blaze_rod.json
 976e9aaaf32c9450eb41fa829ef6025f2ecd3613 data\compactor\recipe\arrow.json
 0f754ff12105f0398b7b5a29fd94c29db4411470 data\compactor\recipe\sugar_cane.json
