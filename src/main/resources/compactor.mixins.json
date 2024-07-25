@@ -3,7 +3,6 @@
 	"package": "net.robin.compactor.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
-		"PotionBrewingMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

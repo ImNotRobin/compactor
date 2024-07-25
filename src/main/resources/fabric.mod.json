@@ -3,13 +3,13 @@
 	"id": "compactor",
 	"version": "${version}",
 	"name": "Compactor",
-	"description": "Does a few random things that I like",
+	"description": "Allows you to compact a few items you can get in bulk from farms.\nAlso gives a few of them some fun functionality",
 	"authors": [
 		"ImNotRobin"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://modrinth.com/",
+		"sources": "https://github.com/ImNotRobin/compactor"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/compactor/icon.png",
