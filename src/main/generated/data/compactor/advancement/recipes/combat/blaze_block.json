@@ -1,11 +1,11 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_sugar_cane": {
+    "has_blaze_rod": {
       "conditions": {
         "items": [
           {
-            "items": "minecraft:sugar_cane"
+            "items": "minecraft:blaze_rod"
           }
         ]
       },
@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "minecraft:sugar_cane_bundle"
+        "recipe": "minecraft:blaze_block"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -21,12 +21,12 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_sugar_cane"
+      "has_blaze_rod"
     ]
   ],
   "rewards": {
     "recipes": [
-      "minecraft:sugar_cane_bundle"
+      "minecraft:blaze_block"
     ]
   }
 }

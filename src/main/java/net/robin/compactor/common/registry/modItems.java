@@ -38,7 +38,7 @@ public class modItems {
         .statusEffect(new StatusEffectInstance(StatusEffects.POISON, 3600, 9), 1.0f)
         .build();
 
-    public static final Item depth_measure = registerItems("depth_measure", new depthMeasure(new Item.Settings().maxCount(16)));
+//    public static final Item depth_measure = registerItems("depth_measure", new depthMeasure(new Item.Settings().maxCount(16)));
     public static final Item arrow_bundle = registerItems("bundle_of_arrows", new Item(new Item.Settings()));
     public static final Item flesh_pile = registerItems("questionable_meat_sack", new Item(new Item.Settings().food(flesh_pile_component)));
 

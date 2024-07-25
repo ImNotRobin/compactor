@@ -2,7 +2,6 @@ package net.robin.compactor.datagen;
 
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
-import net.minecraft.block.Blocks;
 import net.minecraft.data.client.BlockStateModelGenerator;
 import net.minecraft.data.client.ItemModelGenerator;
 import net.robin.compactor.common.registry.modBlocks;
@@ -13,9 +12,8 @@ public class modelGenerator extends FabricModelProvider {
     }
 
     @Override
-    public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
-        blockStateModelGenerator.registerSimpleCubeAll(modBlocks.blaze_block);
-        blockStateModelGenerator.registerSimpleCubeAll(modBlocks.sugar_cane_bundle);
+    public void generateBlockStateModels(BlockStateModelGenerator bsmg) {
+        bsmg.registerSimpleCubeAll(modBlocks.blaze_block);
     }
 
     @Override

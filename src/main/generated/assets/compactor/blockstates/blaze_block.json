@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "compactor:block/blaze_block"
+    }
+  }
+}

@@ -11,7 +11,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "compactor:sugar_cane_bundle"
+          "name": "compactor:sugar_cane_block"
         }
       ],
       "rolls": 1.0

@@ -1,11 +1,11 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_magma_block": {
+    "has_blaze_block": {
       "conditions": {
         "items": [
           {
-            "items": "compactor:magma_block"
+            "items": "compactor:blaze_block"
           }
         ]
       },
@@ -21,7 +21,7 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_magma_block"
+      "has_blaze_block"
     ]
   ],
   "rewards": {

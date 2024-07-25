@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "bottom": "compactor:block/sugar_cane_block_top_bottom",
+    "side": "compactor:block/sugar_cane_block_side",
+    "top": "compactor:block/sugar_cane_block_top_bottom"
+  }
+}

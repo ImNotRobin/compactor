@@ -10,7 +10,6 @@ import net.minecraft.item.ItemGroups;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.sound.BlockSoundGroup;
-import net.minecraft.util.DyeColor;
 import net.minecraft.util.Identifier;
 import net.robin.compactor.Compactor;
 import net.robin.compactor.common.blocks.blaze_block;
@@ -32,8 +31,8 @@ public class modBlocks {
                             .sounds(BlockSoundGroup.WOOD)
                             .burnable()
                             .solidBlock(Blocks::never)));
-    public static final Block sugar_cane_bundle = registerBlock(
-            "sugar_cane_bundle",
+    public static final Block sugar_cane_block = registerBlock(
+            "sugar_cane_block",
             new Block(
                     AbstractBlock.Settings.create()
                             .mapColor(MapColor.PALE_GREEN)
@@ -41,17 +40,18 @@ public class modBlocks {
                             .sounds(BlockSoundGroup.BAMBOO_WOOD)
                             .burnable()));
     public static final Block blaze_block = registerBlock(
-            "magma_block",
+            "blaze_block",
             new blaze_block(
                     AbstractBlock.Settings.create()
                             .mapColor(MapColor.TERRACOTTA_YELLOW)
                             .instrument(NoteBlockInstrument.BASEDRUM)
-                            .requiresTool()
-                            .luminance(state -> 7)
-                            .strength(0.5F)
+                            .luminance(state -> 6)
+                            .strength(0.3F)
+                            .sounds(BlockSoundGroup.GLASS)
                             .allowsSpawning((state, world, pos, entityType) -> entityType.isFireImmune())
                             .postProcess(Blocks::always)
                             .emissiveLighting(Blocks::always)
+                            .solidBlock(Blocks::never)
             )
     );
 
@@ -61,7 +61,7 @@ public class modBlocks {
     }
 
     private static void addItemToNatural(FabricItemGroupEntries entries) {
-        entries.add(sugar_cane_bundle.asItem());
+        entries.add(sugar_cane_block.asItem());
         entries.add(blaze_block.asItem());
     }
 
