@@ -16,12 +16,6 @@ public class modelGenerator extends FabricModelProvider {
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
         blockStateModelGenerator.registerSimpleCubeAll(modBlocks.blaze_block);
         blockStateModelGenerator.registerSimpleCubeAll(modBlocks.sugar_cane_bundle);
-
-        BlockStateModelGenerator.BlockTexturePool whiteConcretePool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.WHITE_CONCRETE);
-
-        whiteConcretePool.slab(modBlocks.white_concrete_slab);
-        whiteConcretePool.stairs(modBlocks.white_concrete_stair);
     }
 
     @Override

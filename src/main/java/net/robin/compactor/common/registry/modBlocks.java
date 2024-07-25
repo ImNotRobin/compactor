@@ -55,16 +55,6 @@ public class modBlocks {
             )
     );
 
-    // Remove later
-    public static final Block white_concrete_stair = registerBlock("white_concrete_stairs",
-            new StairsBlock(Blocks.WHITE_CONCRETE.getDefaultState(), AbstractBlock.Settings.copy(Blocks.WHITE_CONCRETE)));
-    public static final Block white_concrete_slab = registerBlock("white_concrete_slab",
-            new SlabBlock(AbstractBlock.Settings.copy(Blocks.WHITE_CONCRETE)));
-
-    private static void addItemToBuildingBlocks(FabricItemGroupEntries entries) {
-        entries.add(white_concrete_stair.asItem());
-        entries.add(white_concrete_slab.asItem());
-    }
 
     private static void addItemsToCombat(FabricItemGroupEntries entries) {
         entries.add(gunpowder_barrel.asItem());
@@ -78,7 +68,6 @@ public class modBlocks {
     public static void registerAll() {
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.COMBAT).register(modBlocks::addItemsToCombat);
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.NATURAL).register(modBlocks::addItemToNatural);
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(modBlocks::addItemToBuildingBlocks);
     }
 
 }
