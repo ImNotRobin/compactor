@@ -1,6 +1,8 @@
 {
   "item.compactor.bundle_of_arrows" : "Bundle of Arrows",
+  "item.compactor.bundle_of_spectral_arrows" : "Bundle of Spectral Arrows",
   "item.compactor.questionable_meat_sack" : "Questionable Meat Sack",
+  "item.compactor.jar_of_spider_eyes" : "Jar of Spider Eyes",
 
   "block.compactor.gunpowder_barrel" : "Gunpowder Barrel",
   "block.compactor.sugar_cane_block" : "Sugar Cane Block",

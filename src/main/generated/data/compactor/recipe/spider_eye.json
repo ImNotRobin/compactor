@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "compactor:jar_of_spider_eyes"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "minecraft:spider_eye"
+  }
+}

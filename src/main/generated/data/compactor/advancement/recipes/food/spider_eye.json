@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_jar_of_spider_eyes": {
+      "conditions": {
+        "items": [
+          {
+            "items": "compactor:jar_of_spider_eyes"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:spider_eye"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_jar_of_spider_eyes"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:spider_eye"
+    ]
+  }
+}

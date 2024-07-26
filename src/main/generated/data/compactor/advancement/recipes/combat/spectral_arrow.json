@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_bundle_of_spectral_arrows": {
+      "conditions": {
+        "items": [
+          {
+            "items": "compactor:bundle_of_spectral_arrows"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:spectral_arrow"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_bundle_of_spectral_arrows"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:spectral_arrow"
+    ]
+  }
+}

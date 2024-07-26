@@ -38,16 +38,27 @@ public class modItems {
         .statusEffect(new StatusEffectInstance(StatusEffects.POISON, 3600, 9), 1.0f)
         .build();
 
+    public static final FoodComponent spider_eye_jar_component = new FoodComponent.Builder()
+            .nutrition(0)
+            .saturationModifier(0.0f)
+            .alwaysEdible()
+            .statusEffect(new StatusEffectInstance(modEffects.lethal_poison, 3600, 0), 1.0f)
+            .build();
+
 //    public static final Item depth_measure = registerItems("depth_measure", new depthMeasure(new Item.Settings().maxCount(16)));
     public static final Item arrow_bundle = registerItems("bundle_of_arrows", new Item(new Item.Settings()));
+    public static final Item spectral_arrow_bundle = registerItems("bundle_of_spectral_arrows", new Item(new Item.Settings()));
     public static final Item flesh_pile = registerItems("questionable_meat_sack", new Item(new Item.Settings().food(flesh_pile_component)));
+    public static final Item spider_eye_jar = registerItems("jar_of_spider_eyes", new Item(new Item.Settings().food(spider_eye_jar_component)));
 
     private static void addItemsToCombatItemGroup(FabricItemGroupEntries entries) {
         entries.add(arrow_bundle);
+        entries.add(spectral_arrow_bundle);
     }
 
     private static void addItemsToIngredientsFoodGroup(FabricItemGroupEntries entries) {
         entries.add(flesh_pile);
+        entries.add(spider_eye_jar);
     }
 
     public static void registerItems() {

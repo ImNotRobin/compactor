@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:block/cube_column",
+  "parent": "minecraft:block/cube_column_horizontal",
   "textures": {
     "side": "compactor:block/sugar_cane_block_side",
     "end": "compactor:block/sugar_cane_block_top_bottom"

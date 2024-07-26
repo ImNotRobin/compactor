@@ -19,7 +19,9 @@ public class recipeGenerator extends FabricRecipeProvider {
     @Override
     public void generate(RecipeExporter exporter) {
         offerReversibleCompactingRecipes(exporter, RecipeCategory.COMBAT, Items.ARROW, RecipeCategory.COMBAT, modItems.arrow_bundle);
+        offerReversibleCompactingRecipes(exporter, RecipeCategory.COMBAT, Items.SPECTRAL_ARROW, RecipeCategory.COMBAT, modItems.spectral_arrow_bundle);
         offerReversibleCompactingRecipes(exporter, RecipeCategory.FOOD, Items.ROTTEN_FLESH, RecipeCategory.FOOD, modItems.flesh_pile);
+        offerReversibleCompactingRecipes(exporter, RecipeCategory.FOOD, Items.SPIDER_EYE, RecipeCategory.FOOD, modItems.spider_eye_jar);
         offerReversibleCompactingRecipes(exporter, RecipeCategory.MISC, Items.GUNPOWDER, RecipeCategory.COMBAT, modBlocks.gunpowder_barrel);
         offerReversibleCompactingRecipes(exporter, RecipeCategory.MISC, Items.SUGAR_CANE, RecipeCategory.COMBAT, modBlocks.sugar_cane_block);
         offerReversibleCompactingRecipes(exporter, RecipeCategory.MISC, Items.BLAZE_ROD, RecipeCategory.COMBAT, modBlocks.blaze_block);

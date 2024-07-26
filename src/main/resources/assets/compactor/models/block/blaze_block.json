@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "side": "compactor:block/blaze_block",
+    "end": "compactor:block/blaze_block_top_bottom"
+  }
+}

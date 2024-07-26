@@ -33,7 +33,7 @@ public class modBlocks {
                             .solidBlock(Blocks::never)));
     public static final Block sugar_cane_block = registerBlock(
             "sugar_cane_block",
-            new Block(
+            new PillarBlock(
                     AbstractBlock.Settings.create()
                             .mapColor(MapColor.PALE_GREEN)
                             .strength(2.0F, 3.0F)

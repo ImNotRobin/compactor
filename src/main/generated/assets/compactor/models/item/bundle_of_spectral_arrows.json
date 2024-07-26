@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "compactor:item/bundle_of_spectral_arrows"
+  }
+}
