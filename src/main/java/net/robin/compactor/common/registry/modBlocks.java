@@ -2,6 +2,7 @@ package net.robin.compactor.common.registry;
 
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
+import net.fabricmc.fabric.api.registry.FuelRegistry;
 import net.minecraft.block.*;
 import net.minecraft.block.enums.NoteBlockInstrument;
 import net.minecraft.item.BlockItem;
@@ -68,6 +69,8 @@ public class modBlocks {
     public static void registerAll() {
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.COMBAT).register(modBlocks::addItemsToCombat);
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.NATURAL).register(modBlocks::addItemToNatural);
+        // Seconds for blaze rods (120) * tps (20) * multiplier (10)
+        FuelRegistry.INSTANCE.add(blaze_block, 24000);
     }
 
 }
