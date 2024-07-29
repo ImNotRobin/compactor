@@ -36,9 +36,9 @@ public class modBlocks {
             "sugar_cane_block",
             new PillarBlock(
                     AbstractBlock.Settings.create()
-                            .mapColor(MapColor.PALE_GREEN)
+                            .mapColor(MapColor.DARK_GREEN)
                             .strength(2.0F, 3.0F)
-                            .sounds(BlockSoundGroup.BAMBOO_WOOD)
+                            .sounds(BlockSoundGroup.GRASS)
                             .burnable()));
     public static final Block blaze_block = registerBlock(
             "blaze_block",
